@@ -21,7 +21,7 @@ if (file_exists($file_path)) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Discord風掲示板</title>
+    <title>掲示板</title>
     <style>
         .message {
             border: 1px solid #ddd;
@@ -86,7 +86,7 @@ if (file_exists($file_path)) {
     </script>
 </head>
 <body>
-    <h1>Discord風掲示板</h1>
+    <h1>掲示板</h1>
     <form>
         名前: <input type="text" name="name"><br>
         メッセージ: <textarea name="message"></textarea><br>
